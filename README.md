@@ -37,8 +37,10 @@
                    <td>Captura 4</td>
                </tr>
                <tr>
-                   <td><img src="/img/corrida.png" width="250"></td>
-                   <td><img src="/img/original.png" width="250"></td>
+                   <td><img src="/img/cap1.png" width="250"></td>
+                   <td><img src="/img/cap2.png" width="250"></td>
+                   <td><img src="/img/cap3.png" width="250"></td>
+                   <td><img src="/img/cap5.png" width="250"></td>
                </tr>
            </table>
        </center>
