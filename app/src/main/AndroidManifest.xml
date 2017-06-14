@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ramiro.proyectostudyjams">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icono_aplicacion_launcher"
+        android:label="TU-MINI"
+        android:roundIcon="@mipmap/icono_aplicacion_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="TU-MINI"
+            android:theme="@style/AppTheme.NoActionBar" android:screenOrientation="portrait"/>
+        <activity android:name=".SplashscreenActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ListaLineasEncontradas" android:label="TU-MINI"/>
+        <activity android:name=".DescripcionSindicato" android:label="TU-MINI" />
+        <activity android:name=".LineasSindicato" android:label="TU-MINI" android:screenOrientation="portrait"/>
+        <activity android:name=".RutaLinea" android:label="TU-MINI"/>
+        <activity android:name=".ListaFavorito" android:label="TU-MINI"/>
+    </application>
+
+</manifest>

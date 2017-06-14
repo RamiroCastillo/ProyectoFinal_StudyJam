@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ProyectoStudyJams</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="DescripcionAplicacion">La APLICACION es para toda la comunidad Paceña el objetivo principal de esta  es poder conocer todas las lineas de minibus
+    de la ciudad de La Paz y asi poder transitar con mucha mas facilidad y no estar tomando autos  en cada esquina parallegar a nuestro destino</string>
+    <string name="Texto_Descripcion">Esta APLICACION  permite a cualquier persona en general porder transitar en los distintas lineas
+    que posee nuestro trasporte publico de la ciudad de La Paz</string>
+    <string name="Ayuda">1. Permite buscar la linea de minibus  segun el lugar a donde se quiera dirigir la persona \n
+                         2. Contiene una Lista de Favoritos en donde el usuario podra guardar las lineas que habitualmente usa \n
+                         3. Permite Ver los detalle del sindicato  y de la linea</string>
+    <string name="DatosSindicato">El sindicato Señor de Mayo es uno de los mas importantes a nivel La Paz ya que cuenta con muchas lineas de transporte  que van de ladera en ladera atravez de la ciudada de La Paz</string>
+
+</resources>

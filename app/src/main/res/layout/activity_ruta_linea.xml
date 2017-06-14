@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.ramiro.proyectostudyjams.RutaLinea"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RUTA DE IDA"
+        android:layout_marginBottom="25dp"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="15dp"
+        android:textSize="18dp"
+        android:background="@drawable/edit_text"/>
+
+        <ListView
+            android:id="@+id/lvListaRutaI"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/fondo_lista"/>
+    <TextView
+        android:layout_marginBottom="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RUTA DE VUELTA"
+        android:textSize="18dp"
+        android:background="@drawable/edit_text"
+        android:paddingLeft="15dp"
+        android:textColor="#FFFFFF"
+        />
+    <ListView
+        android:id="@+id/lvListaRutaV"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/fondo_lista" >
+    </ListView>
+
+
+</LinearLayout>
